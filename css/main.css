@@ -7,3 +7,386 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+body.darks{
+    background-color: #181D25;
+    color: white;
+}
+header{
+    padding: 20px 0;
+    background-color:#F5F7FA;
+}
+header.darks{
+    background-color: #222934;
+}
+nav .container{
+    padding: 20px 10px;
+    background-color: white;
+    width: 1000px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s;
+}
+
+.ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(40, 35, 60);
+    transition: width 0.3s ease;
+}
+
+.ul li a:hover::after{
+    width: 100%;
+}
+
+.ul li a:hover{
+    font-weight: 700;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+}
+.sum{
+    display: block;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+}
+.sum.active{
+    display: none;
+}
+.btnmoon{
+    display: none;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+}
+.btnmoon.active{
+    display: block ;
+}
+.btnshop{
+    font-size: 20px;
+    background-color: white;
+    border: none;
+}
+.btnpoick{
+    font-size: 20px;
+    background-color: #F5F7FA;
+    border: none;
+}
+.hero .container h1{
+    margin: 0 auto;
+    font-weight: 700;
+    width: 70%;
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+.shops{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.shopimg1{
+    border-radius: 50%;
+    width: 262px;
+    background-color: white;
+    cursor: pointer;
+}
+.shopimg2{
+    border-radius: 50%;
+    width: 262px;
+    background-color: white;
+    cursor: pointer;
+}
+.btnscrol1{
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.btnscrol2{
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.shop_p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.shop_span{
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.shop_btn{
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.shop_btn:hover{
+    background-color: black;
+    color: white;
+}
+main{
+    padding: 100px 0;
+}
+.teacher{
+    margin-bottom: 70px;
+}
+.teacher .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.teachers{
+    width:15%;
+} 
+.teachers img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.teachers h5{
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+.species{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px black;
+    margin-bottom: 70px;
+}
+.species h1{
+    font-size: 28PX;
+    font-weight: 600;
+}
+.species button{
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    background:none;
+}
+.bigimg{
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center; 
+    justify-content: space-between;
+}
+.bigspecies{
+    padding: 10px;
+    width: 22%;
+}
+.bigspecies img{
+    margin: 0 auto;
+    width: 90%;
+}
+.bigspecies p{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.bigspecies span{
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.shop_confirmation{
+    width: 100%;
+}
+.confirmation{
+    padding: 10px 0;
+    background:#F5F7FA ;
+    border: none;
+    border-radius: 20px;
+    width: 80%;
+    transition: all 0.3s ease-in-out;
+}
+.like{
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+}
+.like i{
+    color: white;
+}
+.like.red i{
+    color: red;
+    
+}
+.confirmation:hover{
+    background-color: black;
+    color: white;
+}
+.title_price .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.advertising{
+    background-color: #F5F7FA;
+    width: 50%;
+    padding: 100px;
+}
+.advertising.darks{
+    background-color: #333D4C;
+}
+.advertising img{
+    display: flex;
+    margin: 0 auto;
+}
+.advertising button{
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 10px 30px;
+    background-color: white;
+    border: none;
+}
+.price{
+    padding: 60px;
+    width: 50%;
+    background-color: #222934;
+}
+.price.darks{
+    background-color: #222934;
+}
+.price h6{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.price h1{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.price img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.price span{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.price button{
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #222934;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.price button:hover{
+    color: #222934;
+    background-color: white;
+}
+footer{
+    background-color: #222934;
+}
+footer .container{
+    padding: 100px 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+.footer_menu{
+    width: 20%;
+}
+.footer_menu ul li{
+    text-align: center;
+    list-style: none;
+}
+.footer_menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer_gmail{
+    width: 50%;
+}
+.footer_gmail h1{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer_gmail p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footer_gmail input{
+    background-color: #222934;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid white;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.footer_emg{
+    color: #F5F7FA;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
